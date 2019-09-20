@@ -15,7 +15,7 @@ function logMessage(req, res, next) {
     next();
 }
 
-app.get('/', logMessage, (req, res) => res.send('root path'))
+app.get('/', logMessage, (req, res) => res.send('root dev fix'))
 app.get('/hello', (req, res) => {
     console.log('request comming in');
     res.send('world');
