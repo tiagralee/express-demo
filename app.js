@@ -15,7 +15,7 @@ function logMessage(req, res, next) {
     next();
 }
 
-app.get('/', logMessage, (req, res) => res.send('root sdfsdfs'))
+app.get('/', logMessage, (req, res) => res.send('root dev fix sdfsdfs'))
 app.get('/hello', (req, res) => {
     console.log('request comming in');
     res.send('world');
